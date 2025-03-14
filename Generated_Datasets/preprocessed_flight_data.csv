@@ -1,0 +1,13 @@
+booking_id,passenger_name,passport_number,email,phone_number,flight_number,departure_airport,departure_time_utc,arrival_airport,arrival_time_utc,ticket_class,seat_number,ticket_price_usd,payment_status
+TP54321,Emily Brown,P3698521,emily.brown@example.com,555-567-8901,AI101,DEL,2025-03-15T08:30:00 UTC,BOM,2025-03-15T11:45:00 UTC,Economy,14B,465.5,Unknown
+TP54322,David Chen,P7412589,david.chen@example.com,555-678-9012,AI102,DEL,2025-03-16T14:15:00 UTC,CCU,2025-03-16T16:30:00 UTC,Unknown,5A,890.75,Unknown
+TP54323,Sophia Rodriguez,P8523697,sophia.rodriguez@example.com,555-789-0123,AI103,DEL,2025-03-17T19:45:00 UTC,MAA,2025-03-17T22:10:00 UTC,Business,18D,925.0,Unknown
+TP54324,James Wilson,P9638527,james.wilson@example.com,555-890-1234,AI104,DEL,2025-03-18T06:20:00 UTC,BLR,2025-03-18T09:35:00 UTC,Unknown,22F,415.25,Unknown
+TP54325,Aisha Patel,P7539514,aisha.patel@example.com,555-901-2345,AI105,DEL,2025-03-19T11:30:00 UTC,HYD,2025-03-19T13:45:00 UTC,First,9C,1350.0,Unknown
+OB12345,John Smith,P1234567,john.smith@example.com,555-123-4567,AI101,DEL,2025-03-14 08:30:00 UTC,BOM,2025-03-14 11:45:00 UTC,Economy,12A,450.75,Completed
+OB12347,Robert Johnson,P2468013,robert.johnson@example.com,555-234-5678,AI102,DEL,2025-03-14 14:15:00 UTC,CCU,2025-03-14 16:30:00 UTC,Economy,24C,375.5,Completed
+OB12349,Mohammed Ali,P8642097,mohammed.ali@example.com,555-456-7890,AI104,DEL,2025-03-14 06:20:00 UTC,BLR,2025-03-14 09:35:00 UTC,Economy,8F,425.25,Completed
+WI78901,Lucas Nguyen,P5792461,lucas.nguyen@example.com,555-012-3456,AI101,DEL,2025-03-14 08:30:00 UTC,BOM,2025-03-14 11:45:00 UTC,Economy,25E,275.5,Unknown
+OB12348,Emma Wilson,P1357924,emma.wilson@example.com,555-345-6789,AI103,DEL,2025-03-14 19:45:00 UTC,MAA,2025-03-14 22:10:00 UTC,First,3A,1250.0,Completed
+WI78902,Noah Kim,P6428153,noah.kim@example.com,555-123-7890,AI104,DEL,2025-03-14 06:20:00 UTC,BLR,2025-03-14 09:35:00 UTC,Economy,16B,299.5,Unknown
+OB12346,Maria Garcia,P7654321,maria.garcia@example.com,555-987-6543,AI101,DEL,2025-03-14 08:30:00 UTC,BOM,2025-03-14 11:45:00 UTC,Business,Unassigned,850.0,Completed
