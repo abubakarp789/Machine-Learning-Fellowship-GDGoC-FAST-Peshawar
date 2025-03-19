@@ -40,6 +40,7 @@ jupyter notebook
 The project is organized into the following directories:
 
 - `Task 1`: Contains the code for Task 1.
+- `Task 2`: Contains the code for Task 2.
 - `Comming Soon`: Contains the code for the upcoming tasks.
 
 ## Contributing
