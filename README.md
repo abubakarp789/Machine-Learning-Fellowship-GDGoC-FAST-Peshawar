@@ -18,7 +18,7 @@ This repository contains the tasks and projects completed during the Machine Lea
   - [Task 2: Exploratory Data Analysis](#task-2-exploratory-data-analysis)
   - [Task 3: Supervised ML Model Development](#task-3-supervised-ml-model-development)
   - [Task 4: Unsupervised ML Model Development](#task-4-unsupervised-ml-model-development)
-  - [Final Project: HR Attrition Prediction](#final-project-hr-attrition-prediction)
+  - [Final Capstone Projects](#-final-capstone-projects)
 - [Technologies Used](#-technologies-used)
 - [Contributing](#-contributing)
 - [License](#-license)
@@ -195,41 +195,24 @@ This task explores several key areas of unsupervised machine learning and evalua
    - Real-world applications and use case scenarios
    - Decision guidance for metric selection based on problem requirements
 
-The notebooks demonstrate practical applications of unsupervised learning techniques and provide insights into evaluation methodologies for machine learning models.
+## 🎯 Final Capstone Projects
 
-## Final Project: HR Attrition Prediction
+### 1. Official Capstone Project: HR Attrition Predictor
+The primary capstone project for the GDGoC FAST Peshawar ML Fellowship is housed in its dedicated repository:
+👉 **[HR-Attrition-Predictor](https://github.com/abubakarp789/HR-Attrition-Predictor)**
 
-This project aims to analyze employee attrition using data science techniques to identify patterns, predict turnover risk, and generate insights for HR decision-makers. The notebook combines preprocessing, exploratory data analysis, predictive modeling, and cluster analysis to provide a comprehensive understanding of factors influencing employee attrition.
-
----
-
-## Project Overview 
-
-This project uses a **Decision Tree Classifier** to predict employee attrition and provide insights through a **Streamlit web app**.
+A complete machine learning solution featuring a Flask backend REST API, React + Tailwind CSS frontend, Decision Tree classification, KMeans workforce clustering, and custom dataset preprocessing.
 
 ---
 
-## Project Model Performance
+### 2. Network Anomaly Detection (`Final_Project/`)
+The `Final_Project` directory in this repository contains the Network Traffic Anomaly Detection system:
+- **Notebook**: `Final_Project/network_anomaly_detection.ipynb`
+- **Streamlit Dashboard**: `Final_Project/app.py`
+- **Techniques**: Random Forest / Decision Tree anomaly classification, PCA dimensionality reduction, and DBSCAN clustering.
 
-- **Model**: Decision Tree Classifier
+> **Note on Evaluation**: The capstone notebook documents that a single-class test split artificially inflates the apparent test accuracy metric to 100%. In production environments, evaluation must be conducted on stratified, balanced test splits containing both normal and anomaly samples to reflect true generalization.
 
-| Metric     | Score    |
-|------------|----------|
-| Accuracy   | 97.97%   |
-| Precision  | 97.25%   |
-| Recall     | 94.12%   |
-| F1-Score   | 95.66%   |
-
----
-
-## Project Clustering Insights
-
-Unsupervised clustering revealed **2 workforce segments**:
-
-| Segment    | Size      | Satisfaction | Projects | Avg. Hours | Time at Company | Accidents | Promotion |
-|------------|-----------|--------------|----------|-------------|------------------|-----------|-----------|
-| Cluster 0  | 72.33%    | 0.61         | 3.80     | 201.08      | 3.47 yrs         | 15%       | 2%        |
-| Cluster 1  | 27.67%    | 0.61         | 3.80     | 200.98      | 3.57 yrs         | 14%       | 3%        |
 
 ---
 
